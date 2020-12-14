@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+
+
+
+<parameter name="URL" value="Google login"/>
+<parameter name="URL1" value="Google login1"/>
+
+
+
+
+  <test name="UniqueTest">
+  
+  
+  
+    <classes>
+    
+    <class name="T2.PrintK"/>
+    <class name="T2.SimpleTestNGClass"/>
+      
+      </classes>
+      
+     
+    
+  </test> 
+</suite> <!-- Suite -->
